@@ -9,3 +9,4 @@ class user:
         self.last_name = last_name
         self.email = email
         self.user_password = user_password
+        self.loggedIn = True
