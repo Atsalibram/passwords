@@ -10,8 +10,8 @@ This is a detailed description of your application, including its purpose and us
     ```
 * Move into the cloned directory
     ```
-    cd passwords
-    '''
+    $ cd passwords
+    
 * Open the project on VS Code and liveserver
 ## Known Bugs
 * N/A
