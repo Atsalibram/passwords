@@ -84,21 +84,21 @@ def main():
         password = User.generate_password(pass_len)
         print(f"The generated password is {password}")
 
-    print(f"Congratulations {first_name} {last_name}! Welcome to PassLock!!")
+    print(f"Congratulations {first_name} {last_name}! Welcome to Pass-key!!")
     print('\n')
     account_user = User(first_name,last_name,user_email,password)
 
     while 1:
         print('*'*70)
         print('*'*70)
-        print("For easier navigation through PassLock use the short codes below:\n cc - create an account with a user-define password \n dis - display credentials \n del - delete account \n va - view account \n ex - Exit PassLock ")
+        print("For easier navigation through Pass-key use the short codes below:\n cc - create an account with a user-define password \n dis - display credentials \n del - delete account \n va - view account \n ex - Exit Pass-key ")
         short_code = input()
         short_code = short_code.lower()
         print("short_code",short_code)
 
         if short_code == "cc":
             
-            print("What account would you like to add or create credentials for??ie Twitter, Instagram or Palmchat")
+            print("What account would you like to add or create credentials for??ie Twitter, Instagram or Facebook")
             account_name = input()
 
             print("Username")
