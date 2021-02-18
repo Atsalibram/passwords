@@ -63,7 +63,7 @@ import random
 #     user.display_user_account()
 
 def main():
-    print("Hi,Hello!! Welcome PassLock Credentials Check. Enter User First Name.")
+    print("Hello!! Welcome pass-key Credentials Check. Input User First Name.")
     first_name = input()
 
     print(f"Hey {first_name} you're a step into PassLock. Please enter your last name.")
