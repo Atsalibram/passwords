@@ -138,7 +138,7 @@ def main():
                     print("account does not exist")
         elif short_code == "ex":
             account_user.logout()
-            print("PASS-key BIDS BYE....THANK YOU FOR VISITING")
+            print("THANK YOU FOR VISITING")
             break
         elif short_code == 'va':
             while 1:
