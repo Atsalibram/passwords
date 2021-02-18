@@ -66,10 +66,10 @@ def main():
     print("Hello!! Welcome pass-key Credentials Check. Input User First Name.")
     first_name = input()
 
-    print(f"Hey {first_name} you're a step into PassLock. Please enter your last name.")
+    print(f"Hey {first_name} you're a step into Pass-key. Input your last name.")
     last_name = input()
 
-    print(f"Hey {first_name} {last_name} input your credential user email ")
+    print(f"Hey {first_name} {last_name} input your credentials user email ")
     user_email = input()
 
     user_in = int(input("Reply with 1 to enter password or 2 to generate a new password for you"))
