@@ -20,8 +20,8 @@ class TestUser(unittest.TestCase):
         test case to test if the object has been properly initialized
         '''
 
-        self.assertEqual(self.new_User.first_name,"Reggy")
-        self.assertEqual(self.new_User.last_name,"Ginah")
+        self.assertEqual(self.new_User.first_name,"Amar")
+        self.assertEqual(self.new_User.last_name,"Bravo")
         self.assertEqual(self.new_User.user_email,"ginah@gmail.com")
         self.assertEqual(self.new_User.user_password,"ginah123")
 
