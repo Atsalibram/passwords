@@ -1,7 +1,7 @@
 #!/usr/bin/env python3.8
 
 import os
-from credentials import Credentials
+from credential import Credential
 from user import User
 import random
 
