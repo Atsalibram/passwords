@@ -124,7 +124,7 @@ def main():
                         print(account,'\n')
                 
                 else:
-                    print("Oops!! Credentials not found Please Create an Account using the short code cp")
+                    print("Sorry!! Credentials not found Please Create an Account using the short code cp")
                     print('\n')
 
         elif short_code=="del":
@@ -138,7 +138,7 @@ def main():
                     print("account does not exist")
         elif short_code == "ex":
             account_user.logout()
-            print("PASSLOCK BIDS BYE....THANK YOU FOR VISITING")
+            print("PASS-key BIDS BYE....THANK YOU FOR VISITING")
             break
         elif short_code == 'va':
             while 1:
@@ -150,7 +150,7 @@ def main():
                     print("Account does not exist")
 
         else:
-            print("Invalid short code please use: \n cc - create an account with a user-define password \n dis - display credentials \n cp - create a PassLock account with an auto-generated password \n va - view account \n ex - Exit PassLock ")
+            print("Invalid short code please use: \n cc - create an account with a user-define password \n dis - display credentials \n cp - create a Pass-key account with an auto-generated password \n va - view account \n ex - Exit Pass-key ")
 
 if __name__ == '__main__':
     main()
