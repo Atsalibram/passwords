@@ -2,7 +2,7 @@
 #### This is an application that enables users to manage their passwords and even generate new ones
 #### By Bramuel Amariati
 ## Description
-This is a detailed description of your application, including its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have.
+This is an app that users can use to manage their passwords and create new ones
 ## Setup/Installation Requirements
 * Clone the repository to your local machine
     ```
